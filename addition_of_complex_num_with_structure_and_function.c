@@ -25,9 +25,9 @@ int main(){
 
     //Displaying the output
     printf("The complex numbers are:\n");
-    printf("%di + %dj\n", c1.i, c1.j);
-    printf("%di + %dj\n", c2.i, c2.j);
-    printf("The sum is %di + %dj", result.i, result.j);
+    printf("%d + %di\n", c1.i, c1.j);
+    printf("%d + %di\n", c2.i, c2.j);
+    printf("The sum is %d + %di", result.i, result.j);
 }
 
 struct complex sum(struct complex c1, struct complex c2){
